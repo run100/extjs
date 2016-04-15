@@ -1,0 +1,86 @@
+.x-btn-default-small .x-btn-inner {
+  font-size: 12px;
+}
+.x-btn-default-medium .x-btn-inner {
+  font-size: 12px;
+}
+.x-btn-default-large .x-btn-inner {
+  font-size: 12px;
+}
+.x-btn-default-toolbar-small .x-btn-inner {
+  font-size: 12px;
+}
+.x-btn-default-toolbar-medium .x-btn-inner {
+  font-size: 12px;
+}
+.x-btn-default-toolbar-large .x-btn-inner {
+  font-size: 12px;
+}
+.x-menu-item-text {
+  font-size: 12px;
+}
+.x-html-editor-tb .x-font-select {
+  font-size: 12px; 
+}
+.x-panel-header-default {
+  font-size: 12px;
+}
+.x-panel-header-text-default {
+  font-size: 12px;
+}
+.x-panel-header-default-framed {
+  font-size: 12px;
+}
+.x-panel-header-text-default-framed {
+  font-size: 12px;
+}
+.x-tip-header-text {
+  font-size: 12px;
+}
+.x-tip-header,
+.x-tip-body,
+.x-form-invalid-tip-body {
+  font-size: 12px;
+}
+.x-form-invalid-tip-body {
+  font-size: 12px;
+}
+.x-progress-text {
+  font-size: 12px;
+}
+.x-toolbar {
+  font-size: 12px;
+}
+.x-toolbar .x-form-item-label {
+  font-size: 12px;
+}
+.x-toolbar .x-toolbar-text {
+  font-size: 12px;
+}
+.x-window-header-default {
+  font-size: 12px;
+}
+.x-window-header-text-default {
+  font-size: 12px; 
+}
+.x-tab-bar {
+  font-size: 12px;
+}
+.x-tab button {
+  font-size: 12px;
+}
+.x-grid-row .x-grid-cell {
+  font: normal 12px/15px tahoma, arial, verdana, sans-serif;
+}
+.x-column-header {
+  font: 12px tahoma,arial,verdana,sans-serif;
+}
+.x-grid-editor .x-form-text, .x-grid-row-editor .x-form-text {
+  font: normal 12px/15px tahoma, arial, verdana, sans-serif;
+}
+.x-grid-row-editor .x-form-display-field {
+  font: normal 12px/15px tahoma, arial, verdana, sans-serif;
+}
+.x-fieldset-header {
+  font: 12px/15px bold tahoma, arial, verdana, sans-serif;
+}
