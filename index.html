@@ -1,15 +1,53 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>
+    extjs 4.1
+  </title>
   <link rel="stylesheet" type="text/css" media="screen" href="ext/resources/css/ext-all.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="ext/resources/css/ext-font-normal.css" />
   <script type="text/javascript" src="ext/bootstrap.js"></script>
 </head>
 <body>
+
 <script type="text/javascript">
   Ext.onReady(function () {
-    Ext.MessageBox.alert('标题', 'Hello World!');
+    // 对话框
+    //Ext.MessageBox.alert('标题', 'Hello World!');
+    // 窗体
+    /* var win = new Ext.Window({
+        title: '窗口',
+        width: 476,
+        height: 374,
+        html: '<div>这里是窗体内容</div>',
+        resizable: true,
+        modal: true,
+        closable: true,
+        maximizable: true,
+        minimizable: true
+    });
+    win.show(); */
+
+    // form 组件
+    /*var form = new Ext.form.FormPanel({
+        frame: true,
+        title: '表单标题',
+        style: 'margin:10px',
+        html: '<div style="padding:10px">这里表单内容</div>'
+    });
+    var win = new Ext.Window({
+        title: '窗口',
+        width: 476,
+        height: 374,
+        html: '<div>这里是窗体内容</div>',
+        resizable: true,
+        modal: true,
+        closable: true,
+        maximizable: true,
+        minimizable: true,
+        items: form
+    });
+    win.show(); */
   });
 </script>
 </body>
