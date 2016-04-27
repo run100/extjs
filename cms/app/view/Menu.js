@@ -7,14 +7,8 @@ Ext.define('RUN.view.Menu', {
             hrefTarget: ''
         };
         this.items = [{
-            text: '新闻',
-            menu: {
-                xtype: 'menu',
-                items: [{
-                    text: '新闻列表',
-                    href: '/news/admin/list'
-                }]
-            }
+            text: '区块',
+            href: '/news/admin/block'
         }];
         this.callParent();
     }

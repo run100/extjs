@@ -8,6 +8,10 @@
             "compress": true,
             "files": [
                 {
+                    "path": "ext/locale/",
+                    "name": "ext-lang-zh_CN.js"
+                },
+                {
                     "path": "app/controller/",
                     "name": "Students.js"
                 },
