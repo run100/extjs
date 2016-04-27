@@ -6,12 +6,13 @@ Ext.application({
   launch : function() {
     console.log("launch triggered!");
     Ext.create('Ext.container.Viewport', {
-          layout : 'fit',
-          items : [
-                {
-                    xtype: 'studentlist',
-                }
-            ]
-        });
+      layout : 'fit',
+      items : [
+            {
+                xtype: 'studentlist',
+            }
+        ]
+    });
+    //Ext.create('RUN.view.student.List');
   }
 });

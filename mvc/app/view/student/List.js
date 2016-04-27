@@ -13,3 +13,28 @@ Ext.define('RUN.view.student.List' ,{
         this.callParent(arguments);
     }
 });
+// Ext.define('RUN.view.student.List' ,{
+//     extend: 'Ext.container.Viewport',
+//     layout: 'fit',
+//     recycledNews: false,
+//     style: {
+//         backgroundColor: '#FFF'
+//     },
+//     initComponent: function() {
+//         this.items = {
+//             bodyBorder: false,
+//             border: 0,
+//             dockedItems: [{
+//                 dock: 'top',
+//                 height: 88,
+//                 margin: '5, 5, 0, 5',
+//                 contentEl: 'header',
+//                 dockedItems:{
+//                     dock: 'bottom',
+//                     height: 36
+//                 }
+//             }]
+//         };
+//         this.callParent();
+//     }
+// });
