@@ -1,23 +1,15 @@
 {
-    "projectName": "run",
-    "licenseText": "Copyright(c) 2012 365jia.cn\n",
+    "projectName": "cms",
+    "licenseText": "",
     "builds": [
         {
-            "name": "run",
+            "name": "cms",
             "target": "classes.js",
             "compress": true,
             "files": [
                 {
                     "path": "app/controller/",
                     "name": "Students.js"
-                },
-                {
-                    "path": "app/view/student/",
-                    "name": "List.js"
-                },
-                {
-                    "path": "app/view/",
-                    "name": "Menu.js"
                 }
             ]
         }

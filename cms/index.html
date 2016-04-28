@@ -5,29 +5,17 @@
         <title>EXTJS 4.1</title>
         <link rel="stylesheet" type="text/css" href="ext4/resources/css/ext-all.css" />
         <script type="text/javascript" src="ext4/bootstrap.js"></script>
-         <script type="text/javascript" src="./classes.js?555"></script>
+         <script type="text/javascript" src="./classes.js?666"></script>
         <!-- <script type="text/javascript" src="app.js"></script> -->
     </head>
     <body>
         <script type="text/javascript">
-            // Ext.application({
-            //   requires : ['Ext.container.Viewport'],
-            //   name : 'RUN',
-            //   appFolder : 'app',
-            //   paths: {
-            //     'RUN': 'app'
-            //   },
-            //   controllers: ['Students'],
-            //   launch : function() {
-            //     console.log("launch triggered!");
-            //     Ext.create('RUN.view.student.List');
-            //   }
-            // });
+
             Ext.onReady(function(){
                 Ext.application({
-                    name: 'run',
+                    name: 'cms',
                     paths: {
-                        'run': 'app'
+                        'cms': '../cms/app'
                     },
                     controllers: ['Students'],
                     launch: function() {
