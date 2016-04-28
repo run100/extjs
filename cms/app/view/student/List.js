@@ -3,7 +3,7 @@ Ext.define('cms.view.student.List' ,{
     layout: 'fit',
     recycledNews: false,
     style: {
-        backgroundColor: '#333'
+        backgroundColor: '#fff'
     },
     initComponent: function() {
         this.items = {
