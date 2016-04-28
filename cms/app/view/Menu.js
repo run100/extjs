@@ -8,7 +8,8 @@ Ext.define('cms.view.Menu', {
       this.items = [
         {
           text: '区块',
-          href: 'http://baidu.com'
+          href: 'http://baidu.com',
+          target: 'blank'
         },
         {
           text: '一级菜单',
@@ -24,7 +25,7 @@ Ext.define('cms.view.Menu', {
                 href: 'http://blog.chromev.com'
               },
               {
-                text: '系统管理',
+                text: '三级菜单',
                 menu: {
                   xtype: 'menu',
                   items: [
@@ -34,7 +35,7 @@ Ext.define('cms.view.Menu', {
                     }
                   ]
                 }
-              },
+              }
             ]
           }
         }

@@ -19,6 +19,18 @@
                     "path": "app/view/",
                     "name": "Menu.js"
                 },
+                {
+                    "path": "app/model/",
+                    "name": "NewsCatalogFolder.js"
+                },
+                {
+                    "path": "app/store/",
+                    "name": "NewsCatalogFolder.js"
+                },
+                {
+                    "path": "app/view/",
+                    "name": "NewsCatalogsTree.js"
+                }
             ]
         }
     ],

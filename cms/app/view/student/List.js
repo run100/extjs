@@ -24,6 +24,30 @@ Ext.define('cms.view.student.List' ,{
                 type: 'hbox',
                 align: 'stretch'
             },
+            items: [{
+                layout: 'border',
+                title: '点击收缩面板 →',
+                titleCollapse: true,
+                frame: true,
+                headerPosition: 'left',
+                animCollapse: false,
+                collapsible: true,
+                collapseDirection: 'left',
+                split:true,
+                margin: '5, 2, 5, 5',
+                width: 300,
+                items:[
+                    {
+                        xtype: 'newscatalogstree',
+                        title: '',
+                        region:'north',
+                        recycledNews: this.recycledNews,
+                        border: true,
+                        frame: false,
+                        height: '40%'
+                    }
+                ]
+            }]
         }
 
         this.callParent();
