@@ -10,7 +10,15 @@
                 {
                     "path": "app/controller/",
                     "name": "Students.js"
-                }
+                },
+                {
+                    "path": "app/view/student/",
+                    "name": "List.js"
+                },
+                {
+                    "path": "app/view/",
+                    "name": "Menu.js"
+                },
             ]
         }
     ],

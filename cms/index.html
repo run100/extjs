@@ -5,24 +5,31 @@
         <title>EXTJS 4.1</title>
         <link rel="stylesheet" type="text/css" href="ext4/resources/css/ext-all.css" />
         <script type="text/javascript" src="ext4/bootstrap.js"></script>
-         <script type="text/javascript" src="./classes.js?666"></script>
+         <script type="text/javascript" src="./classes.js?777"></script>
         <!-- <script type="text/javascript" src="app.js"></script> -->
     </head>
     <body>
-        <script type="text/javascript">
+        <div id="header" class="x-hide-display">
+    <div class="hd">
+      <h1>新闻发布后台管理</h1>
+    </div>
+  </div>
+        <div>
+            <script type="text/javascript">
 
-            Ext.onReady(function(){
-                Ext.application({
-                    name: 'cms',
-                    paths: {
-                        'cms': '../cms/app'
-                    },
-                    controllers: ['Students'],
-                    launch: function() {
-                         //Ext.create('RUN.view.student.List');
-                    }
+                Ext.onReady(function(){
+                    Ext.application({
+                        name: 'cms',
+                        paths: {
+                            'cms': '../cms/app'
+                        },
+                        controllers: ['Students'],
+                        launch: function() {
+                             Ext.create('cms.view.student.List');
+                        }
+                    });
                 });
-            });
-        </script>
+            </script>
+        </div>
     </body>
 </html>
